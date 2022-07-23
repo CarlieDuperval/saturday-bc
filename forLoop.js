@@ -22,3 +22,32 @@ function getStudentsNames(arr) {
 
 }
 console.log(getStudentsNames(students))
+
+
+// arrow function 
+
+
+let teachers = [
+    {
+        name:'Damian',
+        age: 45,
+        here:true
+    },
+    {
+        name:'Darie',
+        age:35,
+        here: false
+    }
+]
+
+const getTeachersNames = (arr1) => {
+    let teachersNames = []
+
+    for (let i = 0; i < arr1.length; i++){
+        teachersNames.push(arr1[i].age)
+    
+    }
+    return teachersNames
+
+}
+console.log(getTeachersNames(teachers))
