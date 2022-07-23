@@ -1,4 +1,4 @@
-// return the name of all the students name for the given array
+// return the name of all the students  for a given array
 
 let students = [
     {
@@ -7,7 +7,7 @@ let students = [
     },
     {
         name:'pam',
-        here:'true'
+        here:true
     }
 ]
 
@@ -15,7 +15,7 @@ function getStudentsNames(arr) {
     let names = []
 
     for (let i = 0; i < arr.length; i++){
-        names.push(arr[i].name)
+        names.push(arr[i].here)
     
     }
     return names
