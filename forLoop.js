@@ -1,3 +1,5 @@
+// return the name of all the students name for the given array
+
 let students = [
     {
         name: 'max',
