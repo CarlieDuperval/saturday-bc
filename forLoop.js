@@ -24,7 +24,7 @@ function getStudentsNames(arr) {
 console.log(getStudentsNames(students))
 
 
-// arrow function 
+// Array of teachers 
 
 
 let teachers = [
@@ -40,6 +40,8 @@ let teachers = [
     }
 ]
 
+// arrow function 
+
 const getTeachersNames = (arr1) => {
     let teachersNames = []
 
@@ -52,3 +54,4 @@ const getTeachersNames = (arr1) => {
 }
 console.log(getTeachersNames(teachers))
 console.table(teachers)
+console.table(getStudentsNames(students))
