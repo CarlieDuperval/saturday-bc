@@ -51,3 +51,4 @@ const getTeachersNames = (arr1) => {
 
 }
 console.log(getTeachersNames(teachers))
+console.table(teachers)
